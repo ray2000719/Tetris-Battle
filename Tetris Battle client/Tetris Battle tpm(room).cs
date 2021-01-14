@@ -1441,7 +1441,7 @@ namespace Tetris_Battle_client
             }
         }
 
-        void CubeStop() //方塊是否碰地
+        void CubeStop() //方塊碰地
         {
             if (cubetype == 0)  //土字形
             {

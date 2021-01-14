@@ -50,7 +50,7 @@ namespace Tetris_Battle_client
         private void Tetris_Battle_sever_FormClosing(object sender, FormClosingEventArgs e)
         {
             //釋放資源
-            //serverSocket.Close();
+            serverSocket.Close();
             clientPool.Clear();
         }
 
